@@ -1,0 +1,38 @@
+.section {
+    background-color: #0b0528 !important;
+} 
+.cta {
+    background-color: #313342 !important;
+}
+
+h1, h5, h4 {
+    color :  #b9b9b9 !important;
+}
+
+p {
+   color : #b9b9b9;
+}
+
+.testimonial-decs {
+    background-color: #b3adad;
+}
+
+#team {
+    background-color: #262626 !important;
+}
+.wave {
+    filter: invert(1);
+}
+
+.wave-three {
+    filter: invert(0.5);
+}
+
+.joinNow {
+    background-color: #565656 !important;
+    color: white !important;
+}
+
+.team-name {
+    color: #262626 !important;
+}
