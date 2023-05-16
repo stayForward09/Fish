@@ -355,3 +355,15 @@ button, [type='button'], [type='reset'], [type='submit'] {
 #_span {
     border-radius:99px;padding-top:0.5em;padding-right:0.5em;padding-bottom:0.5em;padding-left:0.5em;--wp--custom--icon--background:var(--wp--preset--color--outline, currentColor);--wp--custom--icon--color:var(--wp--preset--color--primary,currentColor);--wp--custom--icon--padding:0.5em 0.5em 0.5em 0.5em;--wp--custom--icon--size:1.5em;--wp--custom--icon--url:url('data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 24 24&quot;><path d=&quot;m16.7 7.1-6.3 8.5-3.3-2.5-.9 1.2 4.5 3.4L17.9 8z&quot;/></svg>');
 }
+
+._connect {
+    font-size: 14px;
+    margin-left: 1%;
+    margin-right: 7%;
+    z-index: 99;
+    background-color: #5067ef;
+    color: white;
+    font-weight: 500;
+    line-height: inherit;
+    border-radius: 20px;
+}
