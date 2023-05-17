@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 class Pricing extends React.Component {
   render() {
@@ -27,7 +26,7 @@ class Pricing extends React.Component {
                             <p><b className="text-custom">1</b> Domain</p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
-                        <Link to="JavaScript:Void(0);" className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</Link>
+                        <button className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</button>
                     </div>
                 </div>
                 <div className="col-lg-4">
@@ -43,7 +42,7 @@ class Pricing extends React.Component {
                             <p><b className="text-custom">10</b> Domain</p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
-                        <Link to="JavaScript:Void(0);" className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</Link>
+                        <button className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</button>
                     </div>
                 </div>
                 <div className="col-lg-4">
@@ -59,7 +58,7 @@ class Pricing extends React.Component {
                             <p><b className="text-custom">Unlimited</b> Domain</p>
                             <p><b className="text-custom">No</b> Hidden Fees</p>
                         </div>
-                        <Link to="JavaScript:Void(0);" className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</Link>
+                        <button className="btn btn-custom waves-effect waves-light margin-t-30">Join Now</button>
                     </div>
                 </div>
             </div>

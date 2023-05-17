@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import CountdownTimer from "react-component-countdown-timer";
 
 class Services extends React.Component {
 
@@ -25,11 +23,11 @@ class Services extends React.Component {
                             <h1 className="" style={{fontSize:'32px',fontWeight:'500', color:'#5a6854',marginTop:'20px'}}>3. Contract deployer</h1>
                             <h1 className="text-center" style={{fontSize:'35px',fontWeight:'600', color:'#5a6854',marginTop:'6%'}}>FOR A LIMITED TIME OF 24 HOURS, ANY UNCLAIMED TOKENS WILL BE DESTROYED</h1>
                             <h1 className="text-center" style={{fontSize:'35px',fontWeight:'600', color:'#5a6854',marginTop:'5%'}}>FIRST COME, FIRST SERVED</h1>
-                            <Link to="#" className="btn  waves-effect waves-light _claim">CLAIM 2,400,000$FISH</Link>
+                            <button className="btn  waves-effect waves-light _claim">CLAIM 2,400,000$FISH</button>
                         </div>
                     </div>
                     <div className='_countdown row' >
-                        <CountdownTimer count={40000} showTitle size={40} labelSize={20}/>
+                        
                     </div>
                 </div>
                 <div className="row vertical-content _aboutDiv">

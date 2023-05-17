@@ -9,7 +9,6 @@ class Testi extends React.Component {
                     <div className="col-lg-8 offset-lg-2">
                         <h1 className="section-title text-center">Sponsors</h1>
                         <div className="section-title-border margin-t-20"></div>
-                        {/* <p className="section-subtitle text-muted text-center font-secondary padding-t-30"></p> */}
                     </div>
                 </div>
                 <div className="row margin-t-50">

@@ -417,7 +417,6 @@ iframe {
   =====================================*/
 
 .bg-home {
-    background: url("../images/bg-home.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -723,7 +722,6 @@ iframe {
 ======================================*/
 
 .bg-web-desc{
-    background: url("../images/crtptom1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

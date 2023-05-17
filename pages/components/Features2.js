@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 class Features2 extends React.Component {
   render() {
@@ -31,7 +30,7 @@ class Features2 extends React.Component {
             </div>
             <div className='text-center'>
                 <h1 className="text-center" style={{fontSize:'35px',fontWeight:'600', color:'#5a6854',marginTop:'4%'}}>8000/8000</h1>
-                <Link to="#" className="btn  waves-effect waves-light _token" style={{marginTop: '1%',width:'170px',letterSpacing: '5px'}}>MINT</Link>
+                <button  className="btn  waves-effect waves-light _token" style={{marginTop: '1%',width:'170px',letterSpacing: '5px'}}>MINT</button>
             </div>
             <div className="container" style={{marginTop:'2%'}}>
                 <p className="section-subtitle font-secondary" style={{color:'blue',marginBottom:'0px',fontSize: '18.4px'}}>fish</p>
@@ -49,6 +48,9 @@ class Features2 extends React.Component {
             </div>
             <div className="container" style={{marginTop:'2%'}}>                
                 <h1 className="text-center" style={{fontSize:'34px',fontWeight:'400', color:'#3a2f2f',marginTop:'30px'}}>INTERACTING WITH FISH CAN ALSO GIVE YOU SOME ANSWERS.</h1>
+            </div>
+            <div className='text-center' style={{height:'600px', textAlign:'center'}}>
+                <iframe src="https://ora.ai/embed/7910c962-dffd-4935-be28-b86456ef2fbe" style={{height:'100%', width:'400px'}} ></iframe>
             </div>
         </section>
   	);

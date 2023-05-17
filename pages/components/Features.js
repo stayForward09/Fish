@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 class Features extends React.Component {
   render() {
@@ -31,7 +30,7 @@ class Features extends React.Component {
             </div>
             <div className='text-center'>
                 <h1 className="text-center" style={{fontSize:'35px',fontWeight:'600', color:'#5a6854',marginTop:'4%'}}>2000/2000</h1>
-                <Link to="#" className="btn  waves-effect waves-light _token" style={{marginTop: '1%',width:'170px',letterSpacing: '5px'}}>MINT</Link>
+                <button  className="btn  waves-effect waves-light _token" style={{marginTop: '1%',width:'170px',letterSpacing: '5px'}}>MINT</button>
             </div>
         </section>
   	);

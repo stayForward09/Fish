@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
   render() {
@@ -11,10 +10,10 @@ class Footer extends React.Component {
                         <h4>FISH</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="#">Home</Link></li>
-                                <li><Link to="#">About us</Link></li>
-                                <li><Link to="#">Careers</Link></li>
-                                <li><Link to="#">Contact us</Link></li>
+                                <li><a>Home</a></li>
+                                <li><a>About us</a></li>
+                                <li><a>Careers</a></li>
+                                <li><a>Contact us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -22,9 +21,9 @@ class Footer extends React.Component {
                         <h4>Information</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="#">Terms & Condition</Link></li>
-                                <li><Link to="#">About us</Link></li>
-                                <li><Link to="#">Bookmarks</Link></li>
+                                <li><a>Terms & Condition</a></li>
+                                <li><a>About us</a></li>
+                                <li><a>Bookmarks</a></li>
                             </ul>
                         </div>
                     </div>
@@ -32,9 +31,9 @@ class Footer extends React.Component {
                         <h4>Support</h4>
                         <div className="text-muted margin-t-20">
                             <ul className="list-unstyled footer-list">
-                                <li><Link to="#">FAQ</Link></li>
-                                <li><Link to="#">Contact</Link></li>
-                                <li><Link to="#">Disscusion</Link></li>
+                                <li><a>FAQ</a></li>
+                                <li><a>Contact</a></li>
+                                <li><a>Disscusion</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,7 +44,7 @@ class Footer extends React.Component {
                         </div>
                         <form className="form subscribe">
                             <input placeholder="Email" className="form-control" required />
-                            <Link to="#" className="submit"><i className="pe-7s-paper-plane"></i></Link>
+                            <a className="submit"><i className="pe-7s-paper-plane"></i></a>
                         </form>
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 class Descriptions extends React.Component {
   render() {
@@ -9,7 +8,7 @@ class Descriptions extends React.Component {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                            <Link to="#" className="btn  waves-effect waves-light _token">TOKEN ECONOMICS</Link>                        
+                            <button className="btn  waves-effect waves-light _token">TOKEN ECONOMICS</button>                        
                     </div>
                 </div>
                 <div className='row text-center' style={{display:'flex',position:'absolute',maxWidth:'none'}}>
