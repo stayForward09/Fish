@@ -1,5 +1,5 @@
 .section {
-    background-color: #150f2e !important;
+    background-color: #0e1123 !important;
 } 
 .cta {
     background-color: #313342 !important;
@@ -18,7 +18,7 @@ p {
 }
 
 #team {
-    background-color: #05022aeb !important
+    background-color: #151a32 !important
 }
 .wave {
     filter: invert(1);
